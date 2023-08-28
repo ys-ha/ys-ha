@@ -24,13 +24,21 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Graduate Assistant
+          company: North Carolina State University
+          company_url: ''
+          company_logo: 
+          location: NC, USA
+          date_start: '2019-09'
+          date_end: ''
+          description: 
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
           company_logo: anl.jpeg
           location: IL, USA
-          date_start: '2021-01-01'
-          date_end: ''
+          date_start: '2022-06'
+          date_end: '2022-08'
           description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved in last year. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
