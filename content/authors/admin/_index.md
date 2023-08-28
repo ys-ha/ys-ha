@@ -77,5 +77,5 @@ email: ''
 highlight_name: true
 ---
 
-I am currently a Ph.D. candidate in Industrial and Systems Engineering (Minor in Mathematics) at North Carolina State University. My research focuses on <b>Stochastic Optimization</b>, <b>Monte Carlo Simulation</b>, <b>Quantum Computing</b>, and <b>Machine Learning</b>. Specifically, I am interested in designing stochastic optimization algorithms to tackle real-world problems.
+I am a Ph.D. candidate in Industrial and Systems Engineering (Minor in Mathematics) at North Carolina State University. My research focuses on <b>Stochastic Optimization</b>, <b>Monte Carlo Simulation</b>, <b>Quantum Computing</b>, and <b>Machine Learning</b>. Specifically, I am interested in designing stochastic optimization algorithms to tackle real-world problems.
 {style="text-align: justify;"}
