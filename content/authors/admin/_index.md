@@ -35,7 +35,7 @@ education:
   courses:
     - course: PhD in Industrial Engineering minor in mathematics
       institution: North Carolina State University
-      year: 2018-2023
+      year: 2018-2023 (expected)
     - course: MS in Operations Research
       institution: North Carolina State University
       year: 2018-2021
@@ -77,5 +77,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a Ph.D. candidate in Industrial and Systems Engineering at North Carolina State University. My research focuses on <b>Stochastic Optimization</b>, <b>Monte Carlo Simulation</b>, <b>Quantum Computing</b>, and <b>Machine Learning</b>. Specifically, I am interested in designing stochastic optimization algorithms to tackle real-world problems.
 {style="text-align: justify;"}
