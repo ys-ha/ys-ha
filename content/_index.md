@@ -35,7 +35,7 @@ sections:
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl.jpeg
+          company_logo: 
           location: IL, USA
           date_start: '2022-06'
           date_end: '2022-08'
@@ -43,7 +43,7 @@ sections:
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl.jpeg
+          company_logo: 
           location: Virtual
           date_start: '2021-05'
           date_end: '2021-08'
