@@ -32,7 +32,7 @@ featured: True
 # links:
 # - name: ""
 #   url: ""
-url_pdf:
+url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9715529
 url_code: 'https://github.com/simopt-admin/simopt'
 
 # Featured image
