@@ -4,9 +4,6 @@ authors:
 - admin
 - Sara Shashaani
 - Raghu Pasupathy
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
 date: "2023-08-01T00:00:00Z"
 doi: ""
 
