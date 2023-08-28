@@ -11,6 +11,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  
   - block: experience
     content:
       title: Experience
@@ -23,29 +24,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Givens Associate (Summer Internship)
+          company: Argonne National Laboratory
           company_url: ''
           company_logo: org-gc
           location: California
           date_start: '2021-01-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+          description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved in last year. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
+    
+        - title: Givens Associate (Summer Internship)
+          company: Argonne National Laboratory
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2021-05'
+          date_end: '2021-08'
+          description: I had the privilege of being actively involved in a project focused on designing an efficient stochastic optimizer for variational hybrid Quantum-Classical algorithms. As part of this endeavor, I took the lead in developing and testing a randomized coordinate algorithm that incorporated adaptive sampling techniques, thus serving as a reliable stochastic optimizer for the project.
     design:
       columns: '2'
+  
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
