@@ -27,7 +27,7 @@ abstract: In the context of simulation optimization (SO), Common Random Numbers 
 
 # tags:
 # - Source Themes
- featured: True
+featured: True
 
 # links:
 # - name: ""
