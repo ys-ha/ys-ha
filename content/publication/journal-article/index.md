@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "On Common-Random-Numbers and the Complexity of Adaptive Sampling Trust-Region Methods"
 authors:
 - admin
 - Sara Shashaani
@@ -23,10 +23,10 @@ publication_types: ["3"]
 publication: "*Optimization Online*"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In the context of simulation optimization (SO), Common Random Numbers (CRN) is the practice of querying the simulation-based oracle with the same random number stream at each point visited by an SO algorithm. This practice is widely believed to facilitate SO algorithm efficiency by preserving structure inherent to  the objective function and gradient sample-paths. However, CRN can present coding challenges compared to the widely-used practice of na\"ive independent sampling. Is the potential  CRN efficiency gain worth the potentially significant cost of implementation within stochastic trust-region algorithms? Toward answering this question, we characterize the consistency and complexity of a class of stochastic trust-region algorithms called ASTRO/ASTRO-DF as a function of the use of CRN. We find that the magnitude of CRN's influence depends intimately on the extent of regularity in the underlying sample paths. For instance, CRN's effect is most evident in first-order settings with smooth sample paths, where the algorithm work complexity dramatically improves from $O(\epsilon^{-6})$ to $O(\epsilon^{-2})$. This result is significant considering that the best work complexity of first-order (generic) stochastic trust-region algorithms reported in the literature is $O(\epsilon^{-6})$. CRN's effect is more muted when the sample paths are potentially discontinuous, with the work complexity improving from $O(\epsilon^{-6})$ to $O(\epsilon^{-5})$ in both zeroth-order and first-order settings. In between these extremes, CRN facilitates various improved complexities depending on prevailing conditions of sample-path regularity. We anticipate similar gains in adaptive sampling algorithms other than ASTRO/ASTRO-DF since the derived complexities stem less due to specific algorithmic mechanics, and more due to elements common to all trust-region methods. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -46,10 +46,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
+# image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -74,4 +74,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
