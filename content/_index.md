@@ -127,7 +127,7 @@ sections:
       subtitle:
       text: 
       # Contact (add or remove contact options as necessary)
-      email: yha3@ncsu.edu
+      email: yha3 -.- at -.- ncsu.edu
       address:
         street: 915 Partners Way
         city: Raleigh
