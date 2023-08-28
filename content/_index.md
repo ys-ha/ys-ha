@@ -47,7 +47,7 @@ sections:
           location: Virtual
           date_start: '2021-05-01'
           date_end: '2021-08-01'
-          description: I had the privilege of being actively involved in a project focused on designing an efficient stochastic optimizer for variational hybrid Quantum-Classical algorithms. As part of this endeavor, I took the lead in developing and testing a randomized coordinate algorithm that incorporated adaptive sampling techniques, thus serving as a reliable stochastic optimizer for the project.
+          description: I had the privilege of being actively involved in a project focused on designing an efficient stochastic optimizer for variational hybrid Quantum-Classical algorithms. As part of this endeavor, I developed and tested a randomized coordinate algorithm that incorporated adaptive sampling techniques, thus serving as a reliable stochastic optimizer for the project.
     design:
       columns: '2'
   
