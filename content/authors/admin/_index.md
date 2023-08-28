@@ -33,7 +33,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Industrial Engineering minor in mathematics
+    - course: PhD in Industrial Engineering 
+      course: minor in mathematics
       institution: North Carolina State University
       year: 2018-2023 (expected)
     - course: MS in Operations Research
