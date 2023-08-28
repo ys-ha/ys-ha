@@ -35,16 +35,16 @@ education:
   courses:
     - course: PhD in Industrial Engineering 
       institution: North Carolina State University
-      year: 2018-2023 (expected)
+      year: 2023 (expected)
     - course: MS in Operations Research
       institution: North Carolina State University
-      year: 2018-2021
+      year: 2021
     - course: MS in Logistics
       institution: Korea Aerospace University
-      year: 2015-2017
+      year: 2017
     - course: BS in Logistics
       institution: Korea Aerospace University
-      year: 2010-2015
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
