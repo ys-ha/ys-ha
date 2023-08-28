@@ -48,15 +48,15 @@ sections:
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl.jpeg
+          company_logo: anl
           location: IL, USA
           date_start: '2022-06-01'
           date_end: '2022-08-01'
-          description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved in last year. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
+          description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved during the first internship. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl.jpeg
+          company_logo: anl
           location: Virtual
           date_start: '2021-05-01'
           date_end: '2021-08-01'
