@@ -29,6 +29,7 @@ interests:
   - Stochastic Optimization
   - Quantum Computing
   - Monte Carlo Simulation
+  - Robust Machine Learning
 
 # Education to show in About widget
 education:
