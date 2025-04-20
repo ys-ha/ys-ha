@@ -34,6 +34,7 @@ sections:
       filters:
         folders:
           - experience
+        exclude_featured: false
       sort: "date_start"
     design:
       columns: '2'
