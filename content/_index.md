@@ -27,12 +27,6 @@ sections:
       columns: '2'
       view: citation
     
-  - block: page
-    id: experience
-    content:
-      title: Experience
-      page_ref: experience
-   
  
   - block: contact
     id: contact
