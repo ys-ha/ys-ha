@@ -35,9 +35,9 @@ sections:
         folders:
           - experience
       sort: "date_start"
-      view: card
     design:
       columns: '2'
+      view: card
  
   - block: contact
     id: contact
