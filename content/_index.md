@@ -29,7 +29,7 @@ sections:
   - block: experience
     id: experience
     content:
-      title: Research Experience
+      title: Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
