@@ -3,7 +3,7 @@ title: "Iteration Complexity and Finite-Time Efficiency of Adaptive Sampling Tru
 authors:
 - admin
 - Sara Shashaani
-date: "2023-06-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -13,10 +13,10 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
+publication: "*IISE Transactions*"
 publication_short: ""
 
 abstract: Adaptive-sampling trust-region method or ASTRO-DF is a paramount algorithm for stochastic derivative-free optimization. Its salient feature is an easy-to-understand-and-implement concept of maintaining ``just enough" replications when evaluating points throughout the search to guarantee almost-sure convergence to a first-order critical point. To reduce the dependence of ASTRO-DF on the problem dimension and boost its performance in finite time, we present two key refinements, namely, (i) local models with diagonal Hessians constructed on interpolation points based on a coordinate basis and (ii) direct search using the interpolation points whenever possible. We demonstrate that the refinements in (i) and (ii) retain the convergence guarantees while matching existing results on iteration complexity. Uniquely, our $\mathcal{O}(\epsilon^{-2})$ iteration complexity results hold without placing assumptions on iterative models' quality and their independence from function estimates. Numerical experimentation on a testbed of problems and comparison against existing popular algorithms reveals the computational advantage of ASTRO-DF due to the proposed refinements.
@@ -31,7 +31,7 @@ featured: True
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/pdf/2305.10650.pdf
+url_pdf: 'https://www.tandfonline.com/doi/abs/10.1080/24725854.2024.2335513'
 url_code: 'https://github.com/simopt-admin/simopt'
 
 # Featured image
