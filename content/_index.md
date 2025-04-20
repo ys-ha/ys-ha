@@ -27,11 +27,17 @@ sections:
       columns: '2'
       view: citation
     
-  - block: page
+  - block: collection
     id: experience
     content:
-      title: experience
-      page_ref: experience
+      title: Experience
+      filters:
+        folders:
+          - experience
+      sort: "date_start"
+      view: card
+      design:
+        columns: '2'
  
   - block: contact
     id: contact
