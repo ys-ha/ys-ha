@@ -1,6 +1,7 @@
 ---
 title: "Graduate Assistant"
 company: "North Carolina State University"
+type: "experience"
 location: "NC, USA"
 date_start: 2019-09-01
 date_end: ""
