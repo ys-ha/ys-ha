@@ -1,48 +1,26 @@
 +++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-+++
 widget = "blank"
 headless = true
 active = true
 title = "Experience"
-+++
 
 [design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
   # color = "navy"
-  
-  # Background gradient.
   # gradient_start = "DarkGreen"
   # gradient_end = "ForestGreen"
-  
-  # Background image.
-  # image = "image.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
+  # image = "image.jpg"
+  # image_darken = 0.6
   # text_color_light = true
 
 [design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+  css_style = ""
+  css_class = ""
 +++
 
 **[2022 -- present] Lecturer, University of Sydney**
@@ -60,5 +38,4 @@ title = "Experience"
 
 **[2012 -- 2015] Senior Analyst, Macquarie Group**
 
-* Worked in the Quantitative Applications Division of the Risk Management Group. Responsible for implementing risk management models (particularly for market risk) and reviewing pricing models.
-* [Macquarie Group](https://www.macquarie.com/au/about/company) is Australia's largest investment bank, headquartered in Sydney.
+* Worked in the Quantitative Applications Division of the*
