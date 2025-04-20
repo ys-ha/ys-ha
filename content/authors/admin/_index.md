@@ -36,7 +36,7 @@ education:
   courses:
     - course: PhD in Industrial Engineering 
       institution: North Carolina State University
-      year: 2023 (expected)
+      year: 2024
     - course: MS in Operations Research
       institution: North Carolina State University
       year: 2021
