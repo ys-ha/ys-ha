@@ -31,6 +31,7 @@ sections:
     id: experience
     content:
       title: Experience
+      text: 1234
       filters:
         folders:
           - experience
