@@ -1,33 +1,10 @@
-/* 프로필 - 본문 간격 줄이기 */
-.row {
-  gap: 0.5rem;
+/* 왼쪽 프로필 - 오른쪽 본문 간 여백만 줄이기 */
+.row, .columns {
+  gap: 1rem; /* 기본 gap을 1rem으로 줄이기 (기존보다 훨씬 촘촘) */
 }
 
-/* 왼쪽 프로필 영역 크기 작게 만들기 */
-.col-4 {
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-
-/* 오른쪽 본문 영역 크기 넓게 만들기 */
-.col-8 {
-  flex: 0 0 75%;
-  max-width: 75%;
-}
-
-/* section 여백 줄이기 */
+/* section 위아래 여백도 약간 줄이기 (선택사항) */
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-/* widget 간 여백 줄이기 */
-.widget {
-  margin-bottom: 1.5rem;
-}
-
-/* 문단 줄 간격 조정 */
-p {
-  line-height: 1.5;
-  margin-bottom: 0.8rem;
 }
