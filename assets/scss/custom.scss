@@ -1,25 +1,32 @@
-/* 프로필 - 본문 간격 최소화 */
+/* 프로필 - 본문 간격 줄이기 */
 .row {
   gap: 0.5rem;
 }
 
-/* 본문 영역 넓히기 */
-.container {
-  max-width: 1200px;
+/* 왼쪽 프로필 영역 크기 작게 만들기 */
+.col-4 {
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
-/* 섹션 위아래 여백 줄이기 */
+/* 오른쪽 본문 영역 크기 넓게 만들기 */
+.col-8 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+/* section 여백 줄이기 */
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-/* 위젯 간 간격 줄이기 */
+/* widget 간 여백 줄이기 */
 .widget {
   margin-bottom: 1.5rem;
 }
 
-/* 본문 텍스트 줄 간격 조정 */
+/* 문단 줄 간격 조정 */
 p {
   line-height: 1.5;
   margin-bottom: 0.8rem;
