@@ -60,7 +60,7 @@ social:
     link: https://scholar.google.com/citations?user=Bg8TdxMAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/Yunsoo-Ha
+    link: https://github.com/ys-ha
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/yunsoo-ha-664287189/
