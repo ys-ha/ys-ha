@@ -1,30 +1,22 @@
 +++
-widget = "experience"
+widget = "blank"
 headless = true
 active = true
 title = "Experience"
-
-[[experience]]
-title = "Lecturer"
-company = "University of Sydney"
-location = "Sydney, Australia"
-date_start = "2022-01-01"
-date_end = ""
-description = "Continuing faculty member (equivalent of Assistant Professor in the US) in the School of Mathematics and Statistics."
-
-[[experience]]
-title = "MSI Fellow"
-company = "Australian National University"
-location = "Canberra, Australia"
-date_start = "2019-01-01"
-date_end = "2022-01-01"
-description = "Fixed-term faculty member in Computational Mathematics group of the Mathematical Sciences Institute."
-
-[[experience]]
-title = "Doctoral Student"
-company = "University of Oxford"
-location = "Oxford, UK"
-date_start = "2015-01-01"
-date_end = "2019-01-01"
-description = "Doctoral student under supervision of Coralia Cartis, in the Numerical Analysis group."
 +++
+
+**[2022 -- present] Lecturer, University of Sydney**
+
+* Continuing faculty member (equivalent of Assistant Professor in the US).
+
+**[2019 -- 2022] MSI Fellow, Australian National University**
+
+* Fixed-term faculty member at MSI.
+
+**[2015 -- 2019] Doctoral Student, University of Oxford**
+
+* Doctoral student in Numerical Analysis.
+
+**[2012 -- 2015] Senior Analyst, Macquarie Group**
+
+* Worked in Quantitative Applications Division of Risk Management Group.
