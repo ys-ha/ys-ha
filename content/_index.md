@@ -32,8 +32,6 @@ sections:
     content:
       title: Experience
       text:
-      # (Jan 2024-Present) National Renewable Energy Laboratory *Postdoctroal Researcher*
-      - ddd
       filters:
         folders:
           - experience
