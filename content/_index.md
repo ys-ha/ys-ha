@@ -26,16 +26,11 @@ sections:
     design:
       columns: '2'
       view: citation  
-  - block: collection
+  - block: page
     id: experience
     content:
       title: Experience
-      filters:
-        folders:
-          - experience
-      sort: "date_start" # 시작날짜 기준 정렬
-      view: card # 또는 list
-      columns: '2'
+      page_ref: experience
     
   
   - block: contact
