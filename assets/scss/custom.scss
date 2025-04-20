@@ -1,10 +1,1 @@
-/* 왼쪽 프로필 - 오른쪽 본문 간 여백만 줄이기 */
-.row, .columns {
-  gap: 1rem; /* 기본 gap을 1rem으로 줄이기 (기존보다 훨씬 촘촘) */
-}
 
-/* section 위아래 여백도 약간 줄이기 (선택사항) */
-.section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
