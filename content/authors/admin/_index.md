@@ -14,22 +14,22 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: North Carolina State University
+  - name: National Renewable Energy Laboratory
     url: https://www.ise.ncsu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include stochastic optimization, monte carlo simulation, quantum computing, and machine learning.
+bio: My research interests include stochastic optimization, monte carlo simulation, quantum computing, and decision-focused learning.
 
 # Interests to show in About widget
 interests:
   - Stochastic Optimization
   - Quantum Computing
   - Monte Carlo Simulation
-  - Robust Machine Learning
+  - Decision-Focused Learning
 
 # Education to show in About widget
 education:
@@ -78,5 +78,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a Ph.D. candidate in Industrial and Systems Engineering (Minor in Mathematics) at North Carolina State University. My research focuses on <b>Stochastic Optimization</b>, <b>Monte Carlo Simulation</b>, <b>Quantum Computing</b>, and <b>Machine Learning</b>. Specifically, I am interested in designing stochastic optimization algorithms to tackle real-world problems.
+Yunsoo Ha is a Postdoctoral Researcher at the National Renewable Energy Laboratory within the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group. He earned his Ph.D. from the Department of Industrial and Systems Engineering at North Carolina State University. His research focuses on developing stochastic optimization algorithms to tackle real-world problems. He is particularly interested in bridging theory and practice to design efficient, scalable solutions for decision-making under uncertainty.
 {style="text-align: justify;"}
