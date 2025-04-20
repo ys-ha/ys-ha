@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+main section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 0.8rem;
+}
+
+ul li, ol li {
+    margin-bottom: 0.5rem;
+}
+
+.article-card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+header nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
