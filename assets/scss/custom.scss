@@ -1,41 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-body {
-    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+/* 프로필 - 본문 간격 최소화 */
+.row {
+  gap: 0.5rem;
 }
 
-main section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+/* 본문 영역 넓히기 */
+.container {
+  max-width: 1200px;
 }
 
-h1, h2, h3, h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+/* 섹션 위아래 여백 줄이기 */
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
+/* 위젯 간 간격 줄이기 */
+.widget {
+  margin-bottom: 1.5rem;
+}
+
+/* 본문 텍스트 줄 간격 조정 */
 p {
-    margin-bottom: 0.8rem;
-}
-
-ul li, ol li {
-    margin-bottom: 0.5rem;
-}
-
-.article-card {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-}
-
-header nav {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
 }
