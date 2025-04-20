@@ -80,3 +80,16 @@ highlight_name: true
 
 Yunsoo Ha is a Postdoctoral Researcher at the National Renewable Energy Laboratory within the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group. He earned his Ph.D. from the Department of Industrial and Systems Engineering at North Carolina State University. His research focuses on developing stochastic optimization algorithms to tackle real-world problems. He is particularly interested in bridging theory and practice to design efficient, scalable solutions for decision-making under uncertainty.
 {style="text-align: justify;"}
+
+
+**Recent news:**
+- (Mar-25) I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
+
+[Click here for older news]({{< ref "news/archive.md" >}})
+
+**Awards and Achievements:**
+- Second Place Winner of the 2025 Pritsker Doctoral Dissertation Award, Institute of Industrial and Systems Engineers (2025)
+- Outstanding Reviewer Award, Winter Simulation Conference (2024)
+- ISE Distinguished Dissertation Award of the 2024 CA Anderson Awards, North Carolina State University (2024)
+- Travel Awards for the 2023 Annual Midwest Optimization Meeting, Michigan State University (2023)
+- Mentored Teaching Fellowship, North Carolina State University (2022)
