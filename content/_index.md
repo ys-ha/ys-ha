@@ -35,7 +35,6 @@ sections:
         folders:
           - experience
       sort: "date_start"
-      view: card
       design:
         columns: '2'
  
