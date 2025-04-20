@@ -90,8 +90,8 @@ Yunsoo Ha is a Postdoctoral Researcher at the National Renewable Energy Laborato
 
 
 **Awards and Achievements:**
-- Second Place Winner of the 2025 Pritsker Doctoral Dissertation Award, Institute of Industrial and Systems Engineers (2025)
-- Outstanding Reviewer Award, Winter Simulation Conference (2024)
-- ISE Distinguished Dissertation Award of the 2024 CA Anderson Awards, North Carolina State University (2024)
-- Travel Awards for the 2023 Annual Midwest Optimization Meeting, Michigan State University (2023)
-- Mentored Teaching Fellowship, North Carolina State University (2022)
+- Second Place Winner of the 2025 Pritsker Doctoral Dissertation Award, IISE (2025)
+- Outstanding Reviewer Award, WSC (2024)
+- ISE Distinguished Dissertation Award of the 2024 CA Anderson Awards, NCSU (2024)
+- Travel Awards for the 2023 Annual Midwest Optimization Meeting, MSU (2023)
+- Mentored Teaching Fellowship, NCSU (2022)
