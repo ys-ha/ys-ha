@@ -1,10 +1,10 @@
 ---
-title: "On Common-Random-Numbers and the Complexity of Adaptive Sampling Trust-Region Methods"
+title: "Complexity of Zeroth- and First-order Stochastic Trust-Region Algorithms"
 authors:
 - admin
 - Sara Shashaani
 - Raghu Pasupathy
-date: "2023-08-01T00:00:00Z"
+date: "2025-08-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,10 +17,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Optimization Online*"
+publication: "Under minor revision at *SIAM Journal on Optimization*"
 publication_short: ""
 
-abstract: In the context of simulation optimization (SO), Common Random Numbers (CRN) is the practice of querying the simulation-based oracle with the same random number stream at each point visited by an SO algorithm. This practice is widely believed to facilitate SO algorithm efficiency by preserving structure inherent to  the objective function and gradient sample-paths. However, CRN can present coding challenges compared to the widely-used practice of na\"ive independent sampling. Is the potential  CRN efficiency gain worth the potentially significant cost of implementation within stochastic trust-region algorithms? Toward answering this question, we characterize the consistency and complexity of a class of stochastic trust-region algorithms called ASTRO/ASTRO-DF as a function of the use of CRN. We find that the magnitude of CRN's influence depends intimately on the extent of regularity in the underlying sample paths. For instance, CRN's effect is most evident in first-order settings with smooth sample paths, where the algorithm work complexity dramatically improves from $O(\epsilon^{-6})$ to $O(\epsilon^{-2})$. This result is significant considering that the best work complexity of first-order (generic) stochastic trust-region algorithms reported in the literature is $O(\epsilon^{-6})$. CRN's effect is more muted when the sample paths are potentially discontinuous, with the work complexity improving from $O(\epsilon^{-6})$ to $O(\epsilon^{-5})$ in both zeroth-order and first-order settings. In between these extremes, CRN facilitates various improved complexities depending on prevailing conditions of sample-path regularity. We anticipate similar gains in adaptive sampling algorithms other than ASTRO/ASTRO-DF since the derived complexities stem less due to specific algorithmic mechanics, and more due to elements common to all trust-region methods. 
+abstract: Model update (MU) and candidate evaluation (CE) are classical steps incorporated inside many stochastic trust-region (TR) algorithms. The sampling effort exerted within these steps, often decided with the aim of controlling model error, largely determines a stochastic TR algorithm's sample complexity. Given that MU and CE are amenable to variance reduction, we investigate the effect of incorporating common random numbers (CRN) within MU and CE on complexity. Using ASTRO and ASTRO-DF as prototype first-order and zeroth-order families of algorithms, we demonstrate that CRN's effectiveness leads to a range of complexities depending on sample-path regularity and the oracle order. For instance, we find that in first-order oracle settings with smooth sample paths, CRN's effect is pronounced -- ASTRO with CRN achieves $O(\epsilon^{-2})$ a.s. sample complexity compared to O~(ϵ−6) a.s. in the generic no-CRN setting. By contrast, CRN's effect is muted when the sample paths are not Lipschitz, with the sample complexity improving from $O(\epsilon^{-6})$ a.s. to $O(\epsilon^{-5})$ and $O(\epsilon^{-4})$ a.s. in the zeroth- and first-order settings, respectively. Since our results imply that improvements in complexity are largely inherited from generic aspects of variance reduction, e.g., finite-differencing for zeroth-order settings and sample-path smoothness for first-order settings within MU, we anticipate similar trends in other contexts.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -32,7 +32,7 @@ featured: True
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://optimization-online.org/wp-content/uploads/2023/08/astrodf-complexity-online-version.pdf
+url_pdf: 'https://arxiv.org/abs/2405.20116'
 url_code: 'https://github.com/simopt-admin/simopt'
 
 # Featured image
