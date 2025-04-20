@@ -1,22 +1,9 @@
-+++
-widget = "blank"
-headless = true
-active = true
-title = "Experience"
-+++
-
-**[2022 -- present] Lecturer, University of Sydney**
-
-* Continuing faculty member (equivalent of Assistant Professor in the US).
-
-**[2019 -- 2022] MSI Fellow, Australian National University**
-
-* Fixed-term faculty member at MSI.
-
-**[2015 -- 2019] Doctoral Student, University of Oxford**
-
-* Doctoral student in Numerical Analysis.
-
-**[2012 -- 2015] Senior Analyst, Macquarie Group**
-
-* Worked in Quantitative Applications Division of Risk Management Group.
+---
+title: "Lecturer"
+company: "University of Sydney"
+location: "Sydney, Australia"
+date_start: "2022-01-01"
+date_end: ""
+description: "Continuing faculty member (equivalent of Assistant Professor in the US) in the School of Mathematics and Statistics."
+type: experience
+---
