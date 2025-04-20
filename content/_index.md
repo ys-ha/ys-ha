@@ -36,8 +36,8 @@ sections:
         folders:
           - experience
         exclude_featured: false
-      design:
-        columns: '2'
+    design:
+      columns: '2'
  
   - block: contact
     id: contact
