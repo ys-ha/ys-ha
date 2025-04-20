@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: Yunsoo Ha
-date: 2022-10-24
+date: 2024-4-20
 type: landing
 
 sections:
@@ -46,23 +46,34 @@ sections:
           location: NC, USA
           date_start: '2019-09-01'
           date_end: ''
-          description: 
+          description:  'Analyzed the computational complexities with and without CRN in stochastic optimization, and theoretically demon-
+strated that CRN can significantly reduce the computational burden.
+◦ Enhanced the finite-time performance of the adaptive sampling trust-region method for simulation optimization
+through four key refinements:
+· Improved the chances of identifying better solutions through the integration of direct search techniques,
+· Constructed a quadratic model with diagonal Hessian within the trust region framework,
+· Reused previously evaluated solutions and corresponding simulation outputs to reduce computational cost,
+· Applied Common Random Numbers (CRN) to reduce the variance in function and gradient estimates.
+◦ Showed that the refined algorithms converge to the first-order stationary point almost surely.
+◦ Developed simulation optimization solvers and problems from scratch and tested them using Python.
+◦ Developed a stochastic oracle for traffic signal control problems, analyzed its loss landscape characteristics, and
+evaluated the performance of various solvers in addressing the problem.'
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo: ''
           location: IL, USA
           date_start: '2022-06-01'
           date_end: '2022-08-01'
-          description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved during the first internship. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
+          description: 'Designed a gaussian process based trust region algorithm for noisy derivative-free optimization problems.'
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo: ''
           location: Virtual
           date_start: '2021-05-01'
           date_end: '2021-08-01'
-          description: I had the privilege of being actively involved in a project focused on designing an efficient stochastic optimizer for variational hybrid Quantum-Classical algorithms. As part of this endeavor, I developed and tested a randomized coordinate algorithm that incorporated adaptive sampling techniques, thus serving as a reliable stochastic optimizer for the project.
+          description: 'Improved the randomized coordinate algorithm with adaptive sampling as a stochastic optimizer for variational hybrid quantum-classical algorithms.'
     design:
       columns: '2'
     
