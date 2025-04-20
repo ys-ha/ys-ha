@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Canberra, AU"
   date_start = "2019-09-16"
-  date_end = ""
+  date_end = "2019-11-16"
   description = """
   Independent researcher in the Computational Mathematics group of the Mathematical Sciences Institute.
   """
