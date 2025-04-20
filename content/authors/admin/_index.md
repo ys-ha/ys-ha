@@ -85,7 +85,6 @@ Yunsoo Ha is a Postdoctoral Researcher at the National Renewable Energy Laborato
 **Recent news:**
 - (Mar-25) I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
 
-[Click here for older news]({{< ref "news/archive.md" >}})
 
 **Awards and Achievements:**
 - Second Place Winner of the 2025 Pritsker Doctoral Dissertation Award, Institute of Industrial and Systems Engineers (2025)
