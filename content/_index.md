@@ -27,18 +27,24 @@ sections:
       columns: '2'
       view: citation
     
-  - block: collection
+  - block: blank
     id: experience
     content:
       title: "Experience"
-      filters:
-        folders:
-          - experience
-        exclude_featured: false
-      sort: "date_start"
+      body: |
+        **MSI Fellow**  
+        *Australian National University*  
+        Independent researcher in the Computational Mathematics group.  
+        <br><br>
+        **Doctoral Student**  
+        *University of Oxford*  
+        Doctoral student in Numerical Analysis under Coralia Cartis.  
+        <br><br>
+        **Senior Analyst**  
+        *Macquarie Group*  
+        Worked in the Quantitative Applications Division of Risk Management.
     design:
       columns: '2'
-      view: card
  
   - block: contact
     id: contact
