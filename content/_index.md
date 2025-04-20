@@ -30,7 +30,7 @@ sections:
   - block: page
     id: experience
     content:
-      title: Experience
+      title: experience
       page_ref: experience
  
   - block: contact
