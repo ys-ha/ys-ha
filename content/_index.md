@@ -47,22 +47,23 @@ sections:
           date_start: '2019-09-01'
           date_end: ''
           description:
+            - Analyzedthe computational complexities with and without CRN in stochastic optimization andtheoreticallydemon strated that CRN can significantly reduce the computational burden.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo:
           location: IL, USA
           date_start: '2022-06-01'
           date_end: '2022-08-01'
-          description: During my second summer internship, I had the opportunity to work on a project similar to the one I was involved during the first internship. Specifically, I was responsible for designing and testing a Gaussian process-based trust region algorithm tailored for addressing noisy derivative-free optimization problems.
+          description: Improved the randomized coordinate algorithm with adaptive sampling as a stochastic optimizer for variational hybrid quantum-classical algorithms.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo:
           location: Virtual
           date_start: '2021-05-01'
           date_end: '2021-08-01'
-          description: I had the privilege of being actively involved in a project focused on designing an efficient stochastic optimizer for variational hybrid Quantum-Classical algorithms. As part of this endeavor, I developed and tested a randomized coordinate algorithm that incorporated adaptive sampling techniques, thus serving as a reliable stochastic optimizer for the project.
+          description:  Designed a gaussian process based trust region algorithm for noisy derivative-free optimization problems.
     design:
       columns: '2'
    
