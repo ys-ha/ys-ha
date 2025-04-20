@@ -27,11 +27,15 @@ sections:
       columns: '2'
       view: citation
     
-  - block: experience
+  - block: collection
     id: experience
     content:
-      title: Experience
-      date_format: "Jan 2006"
+      title: "Experience"
+      filters:
+        folders:
+          - experience
+      sort: "date_start"
+      view: card
     design:
       columns: '2'
  
