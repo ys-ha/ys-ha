@@ -1,4 +1,16 @@
-.experience-card img {
-  filter: none !important;
-  opacity: 1 !important;
+.experience-card p {
+  font-size: 1.05rem;  /* 원하는 크기로 조정 */
+}
+
+.experience-card li {
+  font-size: 1.05rem;  /* 리스트 항목들도 같이 키움 */
+}
+
+.experience-card .experience-company {
+  font-size: 1.1rem; /* 회사명 약간 키우기 (optional) */
+}
+
+.experience-card .experience-title {
+  font-size: 1.3rem; /* 포지션 제목 크게 */
+  font-weight: 600;
 }
