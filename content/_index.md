@@ -95,13 +95,14 @@ sections:
     content:
       title: Teaching
       text: |-
-        ### Instructor, North Carolina State University (Fall 2023)
-        - Taught ISE 552: Design and Control of Production and Service Systems.
+        ### Instructor, *ISE 362: Stochastic Models in Industrial Engineering*
+        **North Carolina State University (Fall 2023)**
         - Designed lecture materials, homework assignments, and exams.
-        - Lectured on production system modeling, stochastic inventory models, and queueing systems.
+        - Lectured on probability, markov chain, and queueing systems.
 
-        ### Teaching Assistant, North Carolina State University (2019–2023)
-        - Assisted in courses such as stochastic modeling, simulation, and optimization.
+        ### Teaching Assistant,
+        **North Carolina State University (2019–2023)
+        - Assisted in courses such as stochastic modeling, simulation, optimization, and quality engineering.
         - Held recitations, office hours, and managed grading.
     design:
       columns: '2'
