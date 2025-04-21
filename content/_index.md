@@ -25,7 +25,8 @@ sections:
         exclude_featured: false
     design:
       columns: '2'
-      view: citation  
+      view: citation
+    
   - block: experience
     id: experience
     content:
@@ -88,7 +89,27 @@ sections:
             - Designed a gaussian process based trust region algorithm for noisy derivative-free optimization problems.
     design:
       columns: '2'
-   
+
+  - block: achievements
+    id: teaching
+    content:
+      title: Teaching
+      items:
+        - title: Instructor
+          organization: North Carolina State University
+          date: 'Fall 2023'
+          description: |-
+            - Instructor for ISE 552: Design and Control of Production and Service Systems.
+            - Designed lecture materials, homework assignments, and exams.
+            - Provided instruction on production system modeling, stochastic inventory models, and queueing systems.
+        - title: Teaching Assistant
+          organization: North Carolina State University
+          date: '2019 - 2023'
+          description: |-
+            - Assisted in courses including stochastic modeling, simulation, and optimization.
+            - Provided recitations, office hours, and grading support.
+    design:
+      columns: '2'
  
   - block: contact
     id: contact
