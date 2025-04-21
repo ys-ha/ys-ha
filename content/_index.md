@@ -97,14 +97,8 @@ sections:
       subtitle:
       text:
       # Contact (add or remove contact options as necessary)
-      email: yha3 -.- at -.- ncsu.edu
-      address:
-        street: 915 Partners Way
-        city: Raleigh
-        region: NC
-        postcode: '27606'
-        country: United States
-        country_code: US
+      email: Yunsoo.Ha -.- at -.- nrel.gov
+      
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
