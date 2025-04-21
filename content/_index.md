@@ -71,7 +71,7 @@ sections:
         - title: Givens Associate
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo:
           location:
           date_start: '2022-06-01'
           date_end: '2022-08-01'
@@ -80,7 +80,7 @@ sections:
         - title: Givens Associate
           company: Argonne National Laboratory
           company_url: ''
-          company_logo: anl
+          company_logo:
           location:
           date_start: '2021-05-01'
           date_end: '2021-08-01'
