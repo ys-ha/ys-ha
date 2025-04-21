@@ -86,10 +86,14 @@ I am a Postdoctoral Researcher at the National Renewable Energy Laboratory withi
 
 
 **Recent news:**
-- (Mar-25): I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)! {style="text-align: justify;"}
-- (Jan-25): Paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) received major revisions from *Mathematical Programming Computation*. {style="text-align: justify;"}
-- (Oct-24): Paper [Two-Stage Estimation and Variance Modeling for Latency-Constrained Variational Quantum Algorithms](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0575) is accepted for publication in *INFORMS Journal on Computing*. {style="text-align: justify;"}
-- (Oct-24): Paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://arxiv.org/abs/2405.20116) received minor revisions from *SIAM Journal of Optimization*. {style="text-align: justify;"}
+- (Mar-25): I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
+{style="text-align: justify;"}
+- (Jan-25): Paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) received major revisions from *Mathematical Programming Computation*.
+{style="text-align: justify;"}
+- (Oct-24): Paper [Two-Stage Estimation and Variance Modeling for Latency-Constrained Variational Quantum Algorithms](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0575) is accepted for publication in *INFORMS Journal on Computing*.
+{style="text-align: justify;"}
+- (Oct-24): Paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://arxiv.org/abs/2405.20116) received minor revisions from *SIAM Journal of Optimization*.
+{style="text-align: justify;"}
 
 
 **Awards and Achievements:**
