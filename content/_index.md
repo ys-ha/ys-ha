@@ -47,8 +47,12 @@ sections:
           date_start: '2019-09-01'
           date_end: ''
           description: |-
-            - Analyzed the computational complexities with and without CRN in stochastic optimization.
-            - Theoretically demonstrated that CRN can significantly reduce the computational burden.
+            - Analyzed the computational complexities with and without CRN in stochastic optimization and theoretically demonstrated that CRN can significantly reduce the computational burden.
+            - Enhanced the finite-time performance of the adaptive sampling trust-region method for simulation optimization through four key refinements:
+              - Improved the chances of identifying better solutions through the integration of direct search techniques;
+              - Constructed a quadratic model with diagonal Hessian within the trust region framework;
+              - Reused previously evaluated solutions and corresponding simulation outputs to reduce computational cost;
+              - Applied Common RandomNumbers(CRN)toreduce the variance in function and gradient estimates.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
