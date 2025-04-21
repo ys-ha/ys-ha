@@ -1,20 +1,24 @@
 .card-text p {
-  font-size: 1.1rem !important;
+  font-size: 1.1rem !important;  /* 일반 문장 (본문) 키우기 */
 }
 
 .card-text li {
-  font-size: 1.1rem !important;
+  font-size: 1.1rem !important;  /* bullet 항목 키우기 */
 }
 
 .experience-title {
-  font-size: 1.4rem !important;
+  font-size: 1.4rem !important; /* 직함 (포지션명) 키우기 */
   font-weight: 600;
 }
 
 .experience-company {
-  font-size: 1.2rem !important;
+  font-size: 1.2rem !important; /* 회사명 키우기 */
 }
 
 .experience-meta {
-  font-size: 1.0rem !important;
+  font-size: 1.0rem !important; /* 기간/장소 살짝 키우기 */
+}
+
+.experience-card {
+  padding: 1.2rem !important; /* 카드 내부 여백 살짝 여유 주기 */
 }
