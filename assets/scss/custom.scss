@@ -47,7 +47,12 @@
   -webkit-filter: none !important;
 }
 
-.experience-logo img, .education-logo img, .experience-logo, .education-logo {
+.experience-logo img,
+.education-logo img,
+.experience-logo,
+.education-logo,
+.timeline-item img,
+.timeline-item {
   filter: none !important;
   -webkit-filter: none !important;
 }
