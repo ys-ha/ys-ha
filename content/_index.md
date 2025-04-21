@@ -95,13 +95,13 @@ sections:
     content:
       title: Teaching
       text: |-
-        ### Instructor, *ISE 362: Stochastic Models in Industrial Engineering*
+        ### Instructor, ISE 362: Stochastic Models in Industrial Engineering
         **North Carolina State University (Fall 2023)**
         - Designed lecture materials, homework assignments, and exams.
         - Lectured on probability, markov chain, and queueing systems.
 
-        ### Teaching Assistant,
-        **North Carolina State University (2019–2023)
+        ### Teaching Assistant, ISE 441: Introduction to Simulation, ISE 748: Quality Engineering
+        **North Carolina State University (2019–2022)
         - Assisted in courses such as stochastic modeling, simulation, optimization, and quality engineering.
         - Held recitations, office hours, and managed grading.
     design:
