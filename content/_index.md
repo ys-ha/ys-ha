@@ -90,7 +90,7 @@ sections:
     design:
       columns: '2'
 
-  - block: blank
+  - block: markdown
     id: teaching
     content:
       title: Teaching
