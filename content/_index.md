@@ -39,6 +39,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Postdoctoral Researcher
+          company: National Renewable Energy Laboratory
+          company_url: ''
+          company_logo:
+          location: Remote
+          date_start: '2024-01-08'
+          date_end: 
+          description: |-
+            - Designed an adaptive sampling rule for multi-fidelity simulation oracles.
+            - Developed a novel stochastic trust region method for multi-fidelity stochastic optimization.
+            - Developing a second-order optimizer that uses diagonal Hessian approximations for deep learning applications.
+            - Developing a differentiable optimization algorithm for mixed-integer problems.
         - title: Graduate Assistant
           company: North Carolina State University
           company_url: ''
@@ -56,7 +68,7 @@ sections:
             - Showed that the refined algorithms converge to the first-order stationary point almost surely.
             - Developed simulation optimization solvers and problems from scratch and tested them using Python [SimOpt](https://github.com/simopt-admin/simopt)
             - Developed a stochastic oracle for traffic signal control problems, analyzed its loss landscape characteristics, and evaluated the performance of various solvers in addressing the problem
-        - title: Givens Associate (Summer Internship)
+        - title: Givens Associate
           company: Argonne National Laboratory
           company_url: ''
           company_logo:
@@ -65,11 +77,11 @@ sections:
           date_end: '2022-08-01'
           description: |-
             - Improved the randomized coordinate algorithm with adaptive sampling as a stochastic optimizer for variational hybrid quantum-classical algorithms.
-        - title: Givens Associate (Summer Internship)
+        - title: Givens Associate
           company: Argonne National Laboratory
           company_url: ''
           company_logo:
-          location: Virtual
+          location: Remote
           date_start: '2021-05-01'
           date_end: '2021-08-01'
           description: |-
