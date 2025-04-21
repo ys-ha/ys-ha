@@ -37,13 +37,12 @@
   font-weight: 400;
 }
 
-.card .card-logo img,
+.card img,
 .card-logo img,
-.timeline-item .card-logo img,
-.timeline-item .experience-logo img,
-.timeline-item .education-logo img,
+.timeline-item img,
 .experience-logo img,
 .education-logo img {
   filter: none !important;
   -webkit-filter: none !important;
+  opacity: 1 !important;
 }
