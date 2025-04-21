@@ -14,6 +14,16 @@
 .card-location {
   font-size: 1.1rem !important; /* 회사명 키우기 */
 }
+
+.card-text ul {
+  padding-left: 1rem !important; /* 기본 1.5rem -> 1rem로 줄이기 */
+  margin-bottom: 0.5rem;
+}
+
+.card-text li {
+  margin-bottom: 0.25rem;
+}
+
 .card-date_start {
   font-size: 1.1rem !important; /* 회사명 키우기 */
 }
