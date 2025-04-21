@@ -90,24 +90,19 @@ sections:
     design:
       columns: '2'
 
-  - block: achievements
+  - block: page
     id: teaching
     content:
       title: Teaching
-      items:
-        - title: Instructor
-          organization: North Carolina State University
-          date: 'Fall 2023'
-          description: |-
-            - Instructor for ISE 552: Design and Control of Production and Service Systems.
-            - Designed lecture materials, homework assignments, and exams.
-            - Provided instruction on production system modeling, stochastic inventory models, and queueing systems.
-        - title: Teaching Assistant
-          organization: North Carolina State University
-          date: '2019 - 2023'
-          description: |-
-            - Assisted in courses including stochastic modeling, simulation, and optimization.
-            - Provided recitations, office hours, and grading support.
+      body: |-
+        ### Instructor, North Carolina State University (Fall 2023)
+        - Taught ISE 552: Design and Control of Production and Service Systems.
+        - Designed lecture materials, homework assignments, and exams.
+        - Lectured on production system modeling, stochastic inventory models, and queueing systems.
+
+        ### Teaching Assistant, North Carolina State University (2019–2023)
+        - Assisted in courses such as stochastic modeling, simulation, and optimization.
+        - Held recitations, office hours, and managed grading.
     design:
       columns: '2'
  
