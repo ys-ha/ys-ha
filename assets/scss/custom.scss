@@ -1,16 +1,16 @@
-.experience-card p {
-  font-size: 1.05rem;  /* 원하는 크기로 조정 */
+.experience-content {
+  font-size: 1.1rem; /* 본문 글자 크기 키우기 */
 }
 
-.experience-card li {
-  font-size: 1.05rem;  /* 리스트 항목들도 같이 키움 */
-}
-
-.experience-card .experience-company {
-  font-size: 1.1rem; /* 회사명 약간 키우기 (optional) */
-}
-
-.experience-card .experience-title {
-  font-size: 1.3rem; /* 포지션 제목 크게 */
+.experience-title {
+  font-size: 1.4rem; /* 직함 (제목) 더 크게 */
   font-weight: 600;
+}
+
+.experience-company {
+  font-size: 1.2rem; /* 회사 이름 살짝 크게 */
+}
+
+.experience-meta {
+  font-size: 1.0rem; /* 위치, 기간은 살짝만 키움 */
 }
