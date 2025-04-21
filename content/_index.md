@@ -46,8 +46,9 @@ sections:
           location: NC, USA
           date_start: '2019-09-01'
           date_end: ''
-          description:
-            - Analyzedthe computational complexities with and without CRN in stochastic optimization andtheoreticallydemon strated that CRN can significantly reduce the computational burden.
+          description: |-
+            - Analyzed the computational complexities with and without CRN in stochastic optimization.
+            - Theoretically demonstrated that CRN can significantly reduce the computational burden.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
