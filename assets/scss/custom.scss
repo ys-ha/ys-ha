@@ -39,12 +39,15 @@
 
 .card-logo img {
   filter: none !important;
+  -webkit-filter: none !important;
 }
 
 .card-logo {
   filter: none !important;
+  -webkit-filter: none !important;
 }
 
-.experience-logo img, .education-logo img {
+.experience-logo img, .education-logo img, .experience-logo, .education-logo {
   filter: none !important;
+  -webkit-filter: none !important;
 }
