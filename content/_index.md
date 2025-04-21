@@ -64,10 +64,10 @@ sections:
               - Improved the chances of identifying better solutions through the integration of direct search techniques;
               - Constructed a quadratic model with diagonal Hessian within the trust region framework;
               - Reused previously evaluated solutions and corresponding simulation outputs to reduce computational cost;
-              - Applied Common RandomNumbers(CRN)toreduce the variance in function and gradient estimates.
+              - Applied Common RandomNumbers(CRN) to reduce the variance in function and gradient estimates.
             - Showed that the refined algorithms converge to the first-order stationary point almost surely.
-            - Developed simulation optimization solvers and problems from scratch and tested them using Python [SimOpt](https://github.com/simopt-admin/simopt)
-            - Developed a stochastic oracle for traffic signal control problems, analyzed its loss landscape characteristics, and evaluated the performance of various solvers in addressing the problem
+            - Developed simulation optimization solvers and problems from scratch and tested them using Python [(SimOpt)](https://github.com/simopt-admin/simopt)
+            - Developed a stochastic oracle for traffic signal control problems, analyzed its loss landscape characteristics, and evaluated the performance of various solvers in addressing the problem [(Poster)](https://shashaani.wordpress.ncsu.edu/files/2021/11/TrafficControl_FWHDedication_poster_111021_ss.pdf)
         - title: Givens Associate
           company: Argonne National Laboratory
           company_url: ''
