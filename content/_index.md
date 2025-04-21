@@ -94,7 +94,7 @@ sections:
     id: teaching
     content:
       title: Teaching
-      body: |-
+      text: |-
         ### Instructor, North Carolina State University (Fall 2023)
         - Taught ISE 552: Design and Control of Production and Service Systems.
         - Designed lecture materials, homework assignments, and exams.
