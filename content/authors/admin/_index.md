@@ -80,7 +80,7 @@ highlight_name: true
 
 I am a Postdoctoral Researcher at the National Renewable Energy Laboratory within the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group. I earned my Ph.D. from the Department of Industrial and Systems Engineering at North Carolina State University. My research focuses on developing stochastic optimization algorithms to tackle real-world problems. I am particularly interested in bridging theory and practice to design efficient, scalable solutions for decision-making under uncertainty.
 
-I am on the job market in 2025-2026.
+**I am on the job market in 2025-2026.**
 {style="text-align: justify;"}
 
 
