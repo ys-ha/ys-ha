@@ -1,16 +1,20 @@
-.experience-content {
-  font-size: 1.1rem; /* 본문 글자 크기 키우기 */
+.card-text p {
+  font-size: 1.1rem !important;
+}
+
+.card-text li {
+  font-size: 1.1rem !important;
 }
 
 .experience-title {
-  font-size: 1.4rem; /* 직함 (제목) 더 크게 */
+  font-size: 1.4rem !important;
   font-weight: 600;
 }
 
 .experience-company {
-  font-size: 1.2rem; /* 회사 이름 살짝 크게 */
+  font-size: 1.2rem !important;
 }
 
 .experience-meta {
-  font-size: 1.0rem; /* 위치, 기간은 살짝만 키움 */
+  font-size: 1.0rem !important;
 }
