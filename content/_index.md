@@ -43,7 +43,7 @@ sections:
           company: National Renewable Energy Laboratory
           company_url: ''
           company_logo:
-          location: Remote
+          location:
           date_start: '2024-01-08'
           date_end: 
           description: |-
@@ -55,7 +55,7 @@ sections:
           company: North Carolina State University
           company_url: ''
           company_logo:
-          location: NC, USA
+          location:
           date_start: '2019-09-01'
           date_end: '2023-12-01'
           description: |-
@@ -72,7 +72,7 @@ sections:
           company: Argonne National Laboratory
           company_url: ''
           company_logo:
-          location: IL, USA
+          location:
           date_start: '2022-06-01'
           date_end: '2022-08-01'
           description: |-
@@ -81,7 +81,7 @@ sections:
           company: Argonne National Laboratory
           company_url: ''
           company_logo:
-          location: Remote
+          location:
           date_start: '2021-05-01'
           date_end: '2021-08-01'
           description: |-
