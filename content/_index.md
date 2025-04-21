@@ -60,7 +60,8 @@ sections:
           location: IL, USA
           date_start: '2022-06-01'
           date_end: '2022-08-01'
-          description: Improved the randomized coordinate algorithm with adaptive sampling as a stochastic optimizer for variational hybrid quantum-classical algorithms.
+          description: |-
+            - Improved the randomized coordinate algorithm with adaptive sampling as a stochastic optimizer for variational hybrid quantum-classical algorithms.
         - title: Givens Associate (Summer Internship)
           company: Argonne National Laboratory
           company_url: ''
@@ -68,7 +69,8 @@ sections:
           location: Virtual
           date_start: '2021-05-01'
           date_end: '2021-08-01'
-          description:  Designed a gaussian process based trust region algorithm for noisy derivative-free optimization problems.
+          description: |-
+            - Designed a gaussian process based trust region algorithm for noisy derivative-free optimization problems.
     design:
       columns: '2'
    
