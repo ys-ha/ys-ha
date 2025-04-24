@@ -60,12 +60,12 @@ sections:
           date_start: '2019-09-01'
           date_end: '2023-12-01'
           description: |-
-            - Analyzed the computational complexities with and without CRN in stochastic optimization and theoretically demonstrated that CRN can significantly reduce the computational burden.
+            - Analyzed the computational complexities with and without Common Random Numbers (CRN) in stochastic optimization and theoretically demonstrated that CRN can significantly reduce the computational burden.
             - Enhanced the finite-time performance of the adaptive sampling trust-region method for simulation optimization through four key refinements:
-              - Improved the chances of identifying better solutions through the integration of direct search techniques;
-              - Constructed a quadratic model with diagonal Hessian within the trust region framework;
-              - Reused previously evaluated solutions and corresponding simulation outputs to reduce computational cost;
-              - Applied Common RandomNumbers(CRN) to reduce the variance in function and gradient estimates.
+              - Improved the chances of identifying better solutions through the integration of direct search techniques.
+              - Constructed a quadratic model with diagonal Hessian within the trust region framework.
+              - Reused previously evaluated solutions and corresponding simulation outputs to reduce computational cost.
+              - Applied CRN to reduce the variance in function and gradient estimates.
             - Showed that the refined algorithms converge to the first-order stationary point almost surely.
             - Developed simulation optimization solvers and problems from scratch and tested them using Python [(SimOpt)](https://github.com/simopt-admin/simopt)
             - Developed a stochastic oracle for traffic signal control problems, analyzed its loss landscape characteristics, and evaluated the performance of various solvers in addressing the problem [(Poster)](https://shashaani.wordpress.ncsu.edu/files/2021/11/TrafficControl_FWHDedication_poster_111021_ss.pdf)
