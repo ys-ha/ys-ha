@@ -19,7 +19,7 @@ role: Postdoctoral Researcher
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: National Renewable Energy Laboratory
-    url: https://www.ise.ncsu.edu/
+    url: https://www.nrel.gov/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stochastic optimization, monte carlo simulation, quantum computing, and decision-focused learning.
