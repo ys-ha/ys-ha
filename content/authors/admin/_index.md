@@ -79,8 +79,10 @@ highlight_name: true
 ---
 
 I am a Postdoctoral Associate in the School of Civil and Environmental Engineering at Cornell University, working with Professor [Linda Nozick](https://www.engineering.cornell.edu/people/linda-k-nozick/). My research focuses on optimization methods for stochastic game-theoretic models in natural-hazard insurance and municipal land-use risk management.
+{style="text-align: justify;"}
 
 Before joining Cornell, I was a Postdoctoral Researcher at the National Renewable Energy Laboratory (NREL) in the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group. I earned my Ph.D. in Industrial and Systems Engineering, with a minor in Mathematics, from North Carolina State University.
+{style="text-align: justify;"}
 
 Broadly, my research centers on developing stochastic optimization algorithms for decision-making under uncertainty, with an emphasis on bridging theory and practice to design efficient and scalable methods that can be applied to real-world challenges across engineering and policy domains.
 {style="text-align: justify;"}
