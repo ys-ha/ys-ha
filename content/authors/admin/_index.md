@@ -18,8 +18,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: National Renewable Energy Laboratory
-    url: https://www.nrel.gov/
+  - name: Cornell University
+    url: https://www.engineering.cornell.edu/cee/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stochastic optimization, monte carlo simulation, quantum computing, and decision-focused learning.
@@ -78,7 +78,11 @@ email: ''
 highlight_name: true
 ---
 
-I am a Postdoctoral Researcher at the National Renewable Energy Laboratory within the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group. I earned my Ph.D. in Industrial and Systems Engineering, with a minor in Mathematics, from North Carolina State University. My research focuses on developing stochastic optimization algorithms to tackle real-world problems. I am particularly interested in bridging theory and practice to design efficient, scalable solutions for decision-making under uncertainty.
+I am a Postdoctoral Associate in the School of Civil and Environmental Engineering at Cornell University, where my research focuses on optimization methods for game-theoretic models in natural-hazard insurance and municipal land-use risk management.
+
+Before joining Cornell, I was a Postdoctoral Researcher at the National Renewable Energy Laboratory (NREL) in the Artificial Intelligence, Learning, and Intelligent Systems (ALIS) group, working on advanced stochastic optimization and machine learning for energy systems. I earned my Ph.D. in Industrial and Systems Engineering, with a minor in Mathematics, from North Carolina State University.
+
+Broadly, my research centers on developing stochastic optimization algorithms for decision-making under uncertainty, with an emphasis on bridging theory and practice to design efficient and scalable methods that can be applied to real-world challenges across engineering and policy domains.
 {style="text-align: justify;"}
 
 **I am on the job market in 2025-2026.**
