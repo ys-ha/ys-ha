@@ -40,7 +40,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-         - title: Postdoctoral Associate
+        - title: Postdoctoral Associate
           company: Cornell University
           company_url: ''
           company_logo:
