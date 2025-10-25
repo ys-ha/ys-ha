@@ -40,18 +40,28 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+         - title: Postdoctoral Associate
+          company: Cornell University
+          company_url: ''
+          company_logo:
+          location:
+          date_start: '2025-10-01'
+          date_end:
+          description: |-
+            - Developing simulation optimization methods for multi-region Cournot–Nash equilibrium problems in hurricaneinsurance markets, advancing computational frameworks for stochastic and nonlinear equilibrium analysis.
         - title: Postdoctoral Researcher
           company: National Renewable Energy Laboratory
           company_url: ''
           company_logo:
           location:
           date_start: '2024-01-08'
-          date_end: 
+          date_end: '2025-09-30'
           description: |-
             - Designed an adaptive sampling rule for multi-fidelity simulation oracles.
             - Developed a novel stochastic trust region method for multi-fidelity stochastic optimization.
-            - Developing a second-order optimizer that uses diagonal Hessian approximations for deep learning applications.
-            - Developing a differentiable optimization algorithm for mixed-integer problems.
+            - Developed a second-order optimizer that uses diagonal Hessian approximations for deep learning applications.
+            - Developed a differentiable optimization algorithm for mixed-integer problems.
+            - Developed a subspace-based optimizer for large-scale traffic signal control by learning subspaces via deep RL.
         - title: Graduate Assistant
           company: North Carolina State University
           company_url: ''
