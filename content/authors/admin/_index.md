@@ -95,7 +95,7 @@ Broadly, my research centers on developing stochastic optimization algorithms fo
 
 
 **Recent news:**
-- (Dec-25): Served as a session chair for a simulation optimization session and presented [our multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC).
+- (Dec-6): Served as a session chair for a simulation optimization session and presented [our multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC).
 - (Oct-25): Presented our work and served as a session chair in a simulation optimization session at the 2025 INFORMS Annual Meeting.
 - (Aug-29): I will be joining Cornell University as a Postdoctoral Associate in the School of Civil and Environmental Engineering, working with Prof. Linda Nozick, starting in October 2025. My work will focus on developing optimization methods for stochastic game-theoretic models.
 - (May-30): Our paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://epubs.siam.org/doi/10.1137/24M1664484) has been accepted for publication in the *SIAM Journal on Optimization*.
