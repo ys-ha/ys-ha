@@ -94,7 +94,7 @@ Broadly, my research centers on developing stochastic optimization algorithms fo
 
 **Recent news:**
 - (04/2026): Our paper [Adaptive Regularization within Trust Region Methods for Stochastic Nonconvex Optimization](https://arxiv.org/pdf/2604.15457) by Ha, Shashaani, and Quoc is submitted.
-- (03/2026): Presented equilibrium work at 2026 INFORMS Optimization Society Conference.
+- (03/2026): Presented research on equilibrium computation at the 2026 INFORMS Optimization Society Conference.
 - (12/2025): Served as a session chair for a simulation optimization session and presented [multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC) and the 2025 INFORMS Annual Meeting.
 - (08/2025): I will be joining Cornell University as a Postdoctoral Associate in the School of Civil and Environmental Engineering, working with Prof. Linda Nozick, starting in October 2025. My work will focus on developing optimization methods for stochastic game-theoretic models.
 - (05/2025): Our paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://epubs.siam.org/doi/10.1137/24M1664484) has been accepted for publication in the *SIAM Journal on Optimization*.
