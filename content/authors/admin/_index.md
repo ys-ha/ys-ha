@@ -90,18 +90,17 @@ Before joining Cornell, I was a Postdoctoral Researcher at the National Renewabl
 Broadly, my research centers on developing stochastic optimization algorithms for decision-making under uncertainty, with an emphasis on bridging theory and practice to design efficient and scalable methods that can be applied to real-world challenges across engineering and policy domains.
 </p>
 
-**I am on the job market in 2025-2026.**
 {style="text-align: justify;"}
 
-
 **Recent news:**
-- (Dec-6): Served as a session chair for a simulation optimization session and presented [our multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC).
-- (Oct-25): Presented our work and served as a session chair in a simulation optimization session at the 2025 INFORMS Annual Meeting.
-- (Aug-29): I will be joining Cornell University as a Postdoctoral Associate in the School of Civil and Environmental Engineering, working with Prof. Linda Nozick, starting in October 2025. My work will focus on developing optimization methods for stochastic game-theoretic models.
-- (May-30): Our paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://epubs.siam.org/doi/10.1137/24M1664484) has been accepted for publication in the *SIAM Journal on Optimization*.
-- (Mar-25): I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
-- (Jan-25): Our paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) received major revisions from *Mathematical Programming Computation*.
-- (Oct-24): Our paper [Two-Stage Estimation and Variance Modeling for Latency-Constrained Variational Quantum Algorithms](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0575) is accepted for publication in *INFORMS Journal on Computing*.
+- (04/2026): Our paper [Adaptive Regularization within Trust Region Methods for Stochastic Nonconvex Optimization](https://arxiv.org/pdf/2604.15457) by Ha, Shashaani, and Quoc is submitted.
+- (03/2026): Presented equilibrium work at 2026 INFORMS Optimization Society Conference.
+- (12/2025): Served as a session chair for a simulation optimization session and presented [multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC) and the 2025 INFORMS Annual Meeting.
+- (08/2025): I will be joining Cornell University as a Postdoctoral Associate in the School of Civil and Environmental Engineering, working with Prof. Linda Nozick, starting in October 2025. My work will focus on developing optimization methods for stochastic game-theoretic models.
+- (05/2025): Our paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://epubs.siam.org/doi/10.1137/24M1664484) has been accepted for publication in the *SIAM Journal on Optimization*.
+- (03/2025): I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
+# - (01/2025): Our paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) received major revisions from *Mathematical Programming Computation*.
+# - (Oct-24): Our paper [Two-Stage Estimation and Variance Modeling for Latency-Constrained Variational Quantum Algorithms](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0575) is accepted for publication in *INFORMS Journal on Computing*.
 
 
 
