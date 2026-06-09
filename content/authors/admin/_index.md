@@ -34,7 +34,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Industrial Engineering 
+    - course: PhD in Industrial and Systems Engineering 
       institution: North Carolina State University
       year: 2024
     - course: MS in Operations Research
@@ -93,13 +93,13 @@ Broadly, my research centers on developing stochastic optimization algorithms fo
 {style="text-align: justify;"}
 
 **Recent news:**
+- (06/2026): Our paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) has been accepted for publication in the *Mathematical Programming Computation*.
 - (04/2026): Our paper [Adaptive Regularization within Trust Region Methods for Stochastic Nonconvex Optimization](https://arxiv.org/pdf/2604.15457) by Ha, Shashaani, and Tran-Dinh is submitted to *Mathematical Programming*.
 - (03/2026): Presented research on equilibrium computation at the 2026 INFORMS Optimization Society Conference.
 - (12/2025): Served as a session chair for a simulation optimization session and presented [multi-fidelity work](https://arxiv.org/abs/2508.03901) at the 2025 Winter Simulation Conference (WSC) and the 2025 INFORMS Annual Meeting.
 - (08/2025): I will be joining Cornell University as a Postdoctoral Associate in the School of Civil and Environmental Engineering, working with Prof. Linda Nozick, starting in October 2025. My work will focus on developing optimization methods for stochastic game-theoretic models.
 - (05/2025): Our paper [Complexity of Zeroth- and First-Order Stochastic Trust-Region Algorithms](https://epubs.siam.org/doi/10.1137/24M1664484) has been accepted for publication in the *SIAM Journal on Optimization*.
-- (03/2025): I am incredibly honored to be selected as the second-place winner of the 2025 Pritsker Doctoral Dissertation Award from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
-- (01/2025): Our paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) received major revisions from *Mathematical Programming Computation*.
+- (03/2025): I am incredibly honored to be selected as the second-place winner of the **2025 Pritsker Doctoral Dissertation Award** from the [Institute of Industrial and Systems Engineers](https://www.iise.org/Home/)!
 - (10/2024): Our paper [Two-Stage Estimation and Variance Modeling for Latency-Constrained Variational Quantum Algorithms](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0575) is accepted for publication in *INFORMS Journal on Computing*.
 
 
