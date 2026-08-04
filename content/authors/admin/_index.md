@@ -93,6 +93,7 @@ Broadly, my research centers on developing stochastic optimization algorithms fo
 {style="text-align: justify;"}
 
 **Recent news:**
+- (08/2026): I am honored to receive the **Third Place Poster Presentation Award** at the 2026 INFORMS Simulation (I-SIM) Research Workshop.
 - (06/2026): Our paper [Adaptive Sampling-Based Bi-Fidelity Stochastic Trust Region Method for Derivative-Free Stochastic Optimization](https://arxiv.org/abs/2408.04625) has been accepted for publication in the *Mathematical Programming Computation*.
 - (04/2026): Our paper [Adaptive Regularization within Trust Region Methods for Stochastic Nonconvex Optimization](https://arxiv.org/pdf/2604.15457) by Ha, Shashaani, and Tran-Dinh is submitted to *Mathematical Programming*.
 - (03/2026): Presented research on equilibrium computation at the 2026 INFORMS Optimization Society Conference.
