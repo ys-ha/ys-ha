@@ -30,7 +30,7 @@ featured: True
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://arxiv.org/abs/2408.04625'
+url_pdf: 'https://link.springer.com/article/10.1007/s12532-026-00332-3?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20260810&utm_content=10.1007/s12532-026-00332-3'
 url_code: ""
 
 # Featured image
