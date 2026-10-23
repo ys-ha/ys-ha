@@ -42,8 +42,10 @@ strong { font-weight: 600; }
 .academic-section { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 30px; padding: 34px 0; border-top: 1px solid var(--line); }
 .academic-section > h2 { font-size: 21px; padding-top: 1px; }
 .section-content > p + p { margin-top: 8px; }
-.research-list { padding-left: 19px; margin: 12px 0 0; }
+.research-section > h2 { font-size: 22px; }
+.research-list { padding-left: 19px; margin: 0; font-size: calc(1em + 1px); }
 .research-list li { padding-left: 2px; margin-top: 6px; }
+.research-list li:first-child { margin-top: 0; }
 .dated-entry { display: grid; grid-template-columns: 91px minmax(0,1fr); gap: 16px; }
 .dated-entry + .dated-entry { margin-top: 15px; }
 .dated-entry time, .entry-date { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; padding-top: 2px; }
