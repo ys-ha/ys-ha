@@ -1,0 +1,12 @@
+{{ $slug := .File.ContentBaseName }}
+{{ $year := .Params.publication_year | default .Date.Year }}
+{{ $topic := index site.Data.portfolio.publication_topics $slug | default "optimization" }}
+<article class="publication-row" data-topic="{{ $topic }}" data-search="{{ .Title }} {{ delimit .Params.authors " " }} {{ .Params.publication | plainify }} {{ $year }}">
+  <div class="publication-year">{{ $year }}</div>
+  <div class="publication-body">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="publication-authors">{{ range $i, $author := .Params.authors }}{{ if $i }}, {{ end }}{{ if eq (trim $author " ") "admin" }}<strong>Yunsoo Ha</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>
+    <p class="publication-venue">{{ .Params.publication | markdownify }}</p>
+    <div class="publication-links">{{ with .Params.url_pdf }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}{{ with .Params.url_code }}<a href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}<a href="{{ .RelPermalink }}">Abstract</a></div>
+  </div>
+</article>

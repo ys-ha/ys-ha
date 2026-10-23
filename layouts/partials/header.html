@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="wordmark" href="{{ "/" | relURL }}" aria-label="Yunsoo Ha home">Yunsoo Ha</a>
+    <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-navigation" id="site-navigation" aria-label="Main navigation">
+      <a href="{{ "/#research" | relURL }}">Research</a>
+      <a href="{{ "/#publications" | relURL }}"{{ if eq .Section "publication" }} aria-current="page"{{ end }}>Publications</a>
+      <a href="{{ "/#experience" | relURL }}">Experience</a>
+      <a href="{{ "/#teaching" | relURL }}">Teaching</a>
+      <a href="{{ "/#contact" | relURL }}">Contact</a>
+      <a href="{{ "uploads/resume.pdf" | relURL }}" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </div>
+</header>

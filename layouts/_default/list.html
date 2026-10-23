@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="shell section prose-page"><a class="text-link breadcrumb" href="{{ "/" | relURL }}">← Back to home</a><h1>{{ .Title }}</h1><div class="prose">{{ .Content }}</div>{{ range .Pages }}<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>{{ end }}</section>{{ end }}

@@ -1,0 +1,70 @@
+description: "Yunsoo Ha is a Postdoctoral Associate at Cornell University working on stochastic optimization, simulation, and decision-making under uncertainty."
+email: yh2429@cornell.edu
+hero:
+  role: "Postdoctoral Associate"
+  institution: "Cornell University"
+  department: "Civil & Environmental Engineering"
+  institution_url: "https://www.engineering.cornell.edu/cee/"
+news:
+  - date: "Aug 2026"
+    text: "Third Place Poster Presentation Award at the INFORMS Simulation (I-SIM) Research Workshop."
+    link: "https://drive.google.com/file/d/1ffznI09Sion1UxTZcmClV9vsI8-eM-Hn/view"
+    label: "View poster"
+  - date: "Jun 2026"
+    text: "Our bi-fidelity stochastic trust-region paper was accepted by Mathematical Programming Computation."
+    link: "/publication/bf-mpc-2025/"
+    label: "Read paper"
+  - date: "Mar 2026"
+    text: "Presented research on equilibrium computation at the INFORMS Optimization Society Conference."
+about:
+  paragraphs:
+    - "I am a Postdoctoral Associate in the School of Civil and Environmental Engineering at Cornell University, working with Professor [Linda Nozick](https://www.engineering.cornell.edu/people/linda-k-nozick/). My current work focuses on optimization for stochastic game-theoretic models in natural-hazard insurance and municipal land-use risk management."
+    - "Previously, I was a Postdoctoral Researcher in the Artificial Intelligence, Learning, and Intelligent Systems group at the National Renewable Energy Laboratory. I earned my Ph.D. in Industrial and Systems Engineering, with a minor in Mathematics, from North Carolina State University."
+experience:
+  - years: "2025–present"
+    organization: "Cornell University"
+    role: "Postdoctoral Associate"
+    detail: "Simulation optimization and equilibrium computation in natural-hazard insurance markets."
+  - years: "2024–2025"
+    organization: "National Renewable Energy Laboratory"
+    role: "Postdoctoral Researcher"
+    detail: "Multi-fidelity simulation optimization and adaptive sampling in the ALIS group."
+  - years: "2019–2023"
+    organization: "North Carolina State University"
+    role: "Graduate Assistant"
+    detail: "Stochastic trust-region methods, common random numbers, and simulation optimization."
+  - years: "2021 & 2022"
+    organization: "Argonne National Laboratory"
+    role: "Givens Associate"
+    detail: "Noisy derivative-free optimization and hybrid quantum–classical algorithms."
+awards:
+  - year: "2026"
+    title: "Poster Presentation Award · Third Place"
+    organization: "INFORMS Simulation (I-SIM) Research Workshop"
+  - year: "2025"
+    title: "Pritsker Doctoral Dissertation Award · Second Place"
+    organization: "Institute of Industrial and Systems Engineers"
+  - year: "2024"
+    title: "Outstanding Reviewer Award"
+    organization: "Winter Simulation Conference"
+  - year: "2024"
+    title: "ISE Distinguished Dissertation Award"
+    organization: "North Carolina State University"
+selected_publications:
+  - bf-mpc-2025
+  - reg-astro
+  - crn-astro-2023
+  - ijoc-twostage-2025
+  - ic-astrodf-2023
+  - quantum-latency
+publication_topics:
+  reg-astro: optimization
+  crn-astro-2023: optimization
+  bf-mpc-2025: optimization
+  ijoc-twostage-2025: quantum
+  ic-astrodf-2023: optimization
+  quantum-latency: quantum
+  ijpr2019: systems
+  smpt: systems
+  wsc2023: optimization
+  wsc2021: optimization

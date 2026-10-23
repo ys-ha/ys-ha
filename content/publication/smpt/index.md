@@ -4,6 +4,7 @@ authors:
 - admin 
 - Junjae Chae
 date: "2018-02-01T00:00:00Z"
+publication_year: 2018
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

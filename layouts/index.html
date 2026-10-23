@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{ $p := site.Data.portfolio }}
+<div class="shell home-content">
+  <section class="profile" id="about" aria-labelledby="profile-title">
+    <div class="profile-copy">
+      <h1 id="profile-title">Yunsoo Ha</h1>
+      <p class="profile-position">{{ $p.hero.role }}<br><a href="{{ $p.hero.institution_url }}" target="_blank" rel="noopener">{{ $p.hero.institution }}</a> · {{ $p.hero.department }}</p>
+      <div class="biography">{{ range $p.about.paragraphs }}<p>{{ . | markdownify }}</p>{{ end }}</div>
+      <div class="profile-links" aria-label="Contact and academic profiles">
+        <a href="mailto:{{ $p.email }}">Email</a>
+        <a href="https://scholar.google.com/citations?user=Bg8TdxMAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/ys-ha" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/yunsoo-ha-664287189/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ "uploads/resume.pdf" | relURL }}" target="_blank" rel="noopener">CV (PDF)</a>
+      </div>
+    </div>
+    <figure class="profile-photo"><img src="{{ "images/yunsoo-ha.jpg" | relURL }}" width="1368" height="1824" alt="Yunsoo Ha" fetchpriority="high"></figure>
+  </section>
+  <section class="academic-section research-section" id="research" aria-labelledby="research-title">
+    <h2 id="research-title">Research interests</h2>
+    <div class="section-content">
+      <p>I study stochastic optimization, especially methods for problems where function evaluations require expensive, noisy simulations. My research includes:</p>
+      <ul class="research-list">
+        <li><strong>Derivative-free optimization:</strong> trust-region methods, adaptive sampling, and convergence analysis.</li>
+        <li><strong>Simulation optimization:</strong> multi-fidelity models and variance reduction.</li>
+        <li><strong>Applications:</strong> equilibrium computation in insurance markets and hybrid quantum–classical optimization.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="academic-section news-section" aria-labelledby="news-title">
+    <h2 id="news-title">News</h2>
+    <div class="news-list section-content">{{ range $p.news }}{{ $note := . }}<article class="dated-entry"><time>{{ .date }}</time><p>{{ .text }}{{ with .link }} <a href="{{ . }}"{{ if hasPrefix . "http" }} target="_blank" rel="noopener"{{ end }}>{{ $note.label }}</a>{{ end }}</p></article>{{ end }}</div>
+  </section>
+  <section class="publications-section" id="publications" aria-labelledby="publications-title" data-publications>
+    <div class="section-title-row"><h2 id="publications-title">Selected publications</h2><a href="{{ "publication/" | relURL }}">All publications →</a></div>
+    <div class="publication-toolbar"><div class="filter-tabs" role="group" aria-label="Filter selected publications"><button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-button" data-filter="optimization" aria-pressed="false">Optimization</button><button type="button" class="filter-button" data-filter="quantum" aria-pressed="false">Quantum computing</button></div><span class="result-count" aria-live="polite">6 papers</span></div>
+    <div class="publication-list">{{ range $p.selected_publications }}{{ with site.GetPage (printf "/publication/%s" .) }}{{ partial "publication-row.html" . }}{{ end }}{{ end }}</div>
+    <p class="empty-results" hidden>No papers match this filter.</p>
+  </section>
+  <section class="academic-section" id="experience" aria-labelledby="experience-title">
+    <h2 id="experience-title">Experience</h2>
+    <div class="section-content experience-list">{{ range $p.experience }}<article class="dated-entry"><p class="entry-date">{{ .years }}</p><div><h3>{{ .organization }}</h3><p>{{ .role }}</p></div></article>{{ end }}<p class="education-note"><strong>Education</strong><br>Ph.D. in Industrial & Systems Engineering, North Carolina State University. Minor in Mathematics.</p></div>
+  </section>
+  <section class="academic-section" id="teaching" aria-labelledby="teaching-title">
+    <h2 id="teaching-title">Teaching</h2>
+    <div class="section-content teaching-list">
+      <article><h3>ISE 362 · Stochastic Models in Industrial Engineering</h3><p class="entry-note">Instructor · NC State · Fall 2023</p><p>Probability, Markov chains, and queueing systems.</p></article>
+      <article><h3>ISE 441 · ISE 748</h3><p class="entry-note">Teaching assistant · NC State · 2019–2022</p><p>Simulation and quality engineering.</p></article>
+    </div>
+  </section>
+  <section class="academic-section" aria-labelledby="honors-title">
+    <h2 id="honors-title">Honors</h2>
+    <div class="section-content honors-list">{{ range $p.awards }}<article class="dated-entry"><span class="entry-date">{{ .year }}</span><div><h3>{{ .title }}</h3><p class="entry-note">{{ .organization }}</p></div></article>{{ end }}</div>
+  </section>
+  <section class="academic-section contact-section" id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contact</h2>
+    <div class="section-content contact-details"><p><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></p><p>School of Civil and Environmental Engineering<br>Cornell University</p><button class="copy-email" type="button" data-copy="{{ $p.email }}">{{ partial "icon.html" "copy" }} <span>Copy email</span></button><span class="copy-status" role="status" aria-live="polite"></span></div>
+  </section>
+</div>
+{{ end }}

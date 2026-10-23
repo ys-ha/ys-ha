@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="shell section publication-archive" data-publications>
+  <a class="text-link breadcrumb" href="{{ "/" | relURL }}">← Back to home</a>
+  <div class="archive-heading"><h1>Publications</h1><p>Journal articles, preprints, and conference papers.</p></div>
+  <div class="publication-toolbar archive-toolbar"><div class="filter-tabs" role="group" aria-label="Filter publications"><button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-button" data-filter="optimization" aria-pressed="false">Optimization</button><button type="button" class="filter-button" data-filter="quantum" aria-pressed="false">Quantum computing</button><button type="button" class="filter-button" data-filter="systems" aria-pressed="false">Operational systems</button></div><label class="publication-search">{{ partial "icon.html" "search" }}<span class="sr-only">Search publications</span><input type="search" placeholder="Search title, author, or year" data-publication-search autocomplete="off"></label></div>
+  <p class="result-count archive-count" aria-live="polite">{{ len .RegularPages }} papers</p>
+  <div class="publication-list">{{ range (.RegularPages.ByParam "publication_year").Reverse }}{{ partial "publication-row.html" . }}{{ end }}</div>
+  <div class="empty-results" hidden><h2>No matching papers</h2><p>Try another keyword or research area.</p><button class="button button-primary" type="button" data-reset-filters>Reset filters</button></div>
+</section>
+{{ end }}

@@ -5,6 +5,7 @@ authors:
 - Sara Shashaani
 - Quoc Tran-Dinh
 date: "2021-11-01T00:00:00Z"
+publication_year: 2021
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

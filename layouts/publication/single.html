@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $year := .Params.publication_year | default .Date.Year }}
+<article class="shell section paper-page">
+  <a class="text-link breadcrumb" href="{{ "publication/" | relURL }}">← All publications</a>
+  <p class="eyebrow paper-label">{{ if in .Params.publication_types "3" }}PREPRINT{{ else if in .Params.publication_types "1" }}CONFERENCE PAPER{{ else }}JOURNAL ARTICLE{{ end }} · {{ $year }}</p>
+  <h1>{{ .Title }}</h1>
+  <p class="paper-authors">{{ range $i, $author := .Params.authors }}{{ if $i }}, {{ end }}{{ if eq (trim $author " ") "admin" }}<strong>Yunsoo Ha</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>
+  <p class="paper-venue">{{ .Params.publication | markdownify }}</p>
+  <div class="paper-actions">{{ with .Params.url_pdf }}<a class="button button-primary" href="{{ . }}" target="_blank" rel="noopener">Read paper {{ partial "icon.html" "external" }}</a>{{ end }}{{ with .Params.url_code }}<a class="button button-outline" href="{{ . }}" target="_blank" rel="noopener">View code {{ partial "icon.html" "external" }}</a>{{ end }}</div>
+  <div class="paper-abstract"><h2>Abstract</h2><div class="math-content"><p>{{ .Params.abstract }}</p></div></div>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <div class="paper-bottom"><a class="text-link" href="{{ "publication/" | relURL }}">All publications {{ partial "icon.html" "arrow" }}</a><a class="text-link" href="mailto:{{ site.Data.portfolio.email }}">Contact Yunsoo {{ partial "icon.html" "email" }}</a></div>
+</article>
+{{ end }}

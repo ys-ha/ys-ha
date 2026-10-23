@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>{{ if .IsHome }}Yunsoo Ha{{ else }}{{ .Title }} | Yunsoo Ha{{ end }}</title>
+  <meta name="description" content="{{ site.Data.portfolio.description }}">
+  <meta property="og:title" content="{{ if .IsHome }}Yunsoo Ha{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ site.Data.portfolio.description }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ "images/yunsoo-ha.jpg" | absURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "images/favicon.svg" | relURL }}" type="image/svg+xml">
+  {{ $css := resources.Get "css/portfolio.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ $js := resources.Get "js/portfolio.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ if and (eq .Section "publication") .IsPage }}
+  <link rel="stylesheet" href="{{ "vendor/katex/katex.min.css" | relURL }}">
+  <script src="{{ "vendor/katex/katex.min.js" | relURL }}" defer></script>
+  <script src="{{ "vendor/katex/auto-render.min.js" | relURL }}" defer></script>
+  {{ end }}
+</head>
+<body class="{{ if .IsHome }}home-page{{ else }}interior-page{{ end }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "header.html" . }}
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+</body>
+</html>
